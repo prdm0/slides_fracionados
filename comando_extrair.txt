@@ -1,0 +1,2 @@
+gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=98 -sOutputFile=slides_de.pdf Aula_1.pdf 
+gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=98 -sOutputFile=slides_ppgmmc.pdf Aula_1.pdf 
