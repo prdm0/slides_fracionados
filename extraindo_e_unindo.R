@@ -18,10 +18,9 @@ tools_pdf$pdf_combine(
 tools_pdf$pdf_combine(
   vec_input = 
     c(
-      "/home/prdm0/Dropbox/UFPB/aulas_ufpb/Programação Estatística II/Aula_1.pdf",
-      "/home/prdm0/Dropbox/UFPB/aulas_ufpb/Programação Estatística II/Aula_2.pdf"
+      "/home/prdm0/Dropbox/UFPB/aulas_ufpb/Programação Estatística II/Aula_1.pdf"
     ),
   output = "./slides_ppgmmc.pdf",
-  start_pages = c(NA, NA),
-  end_pages = c(NA, NA)  
+  start_pages = NA,
+  end_pages = NA  
 )
