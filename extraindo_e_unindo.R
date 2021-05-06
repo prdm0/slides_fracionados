@@ -7,11 +7,12 @@ tools_pdf$pdf_combine(
   vec_input = 
     c(
       "/home/prdm0/Dropbox/UFPB/aulas_ufpb/Programação Estatística I/Aula_1.pdf",
-      "/home/prdm0/Dropbox/UFPB/aulas_ufpb/Programação Estatística I/Aula_2.pdf"
+      "/home/prdm0/Dropbox/UFPB/aulas_ufpb/Programação Estatística I/Aula_2.pdf",
+      "/home/prdm0/Dropbox/UFPB/aulas_ufpb/Programação Estatística I/Aula_3.pdf"
     ),
   output = "./slides_de.pdf",
-  start_pages = c(NA, NA),
-  end_pages = c(NA, NA)  
+  start_pages = c(NA, NA, NA),
+  end_pages = c(NA, NA, 35)  
 )
 
 # Combining slides for the PPGMMC

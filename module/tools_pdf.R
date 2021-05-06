@@ -20,8 +20,12 @@ pdf_combine <- function(vec_input, output = "output.pdf", start_pages = NA, end_
       )
     )
   
-  f <- function(x, y) 
-    ifelse(is.na(x), pdf_length(vec_input[y]), x[y])
+  f <- function(x, y)
+    ifelse(
+      is.na(x), 
+      pdf_length(vec_input[y]),
+      x
+    )
 
   end_pages <- 
     purrr::map2_dbl(
