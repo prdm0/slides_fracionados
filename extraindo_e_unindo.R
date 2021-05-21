@@ -12,7 +12,7 @@ tools_pdf$pdf_combine(
     ),
   output = "./slides_de.pdf",
   start_pages = c(NA, NA, NA),
-  end_pages = c(NA, NA, 77)  
+  end_pages = c(NA, NA, 102)  
 )
 
 # Combining slides for the PPGMMC
@@ -24,5 +24,5 @@ tools_pdf$pdf_combine(
     ),
   output = "./slides_ppgmmc.pdf",
   start_pages = c(NA, NA),
-  end_pages = c(NA, 45)  
+  end_pages = c(NA, 79)  
 )
