@@ -5,5 +5,5 @@ staplr::combine_pdf(
     ),
   output = "/home/prdm0/slides_fracionados/slides_de.pdf",
   start_pages = c(1L),
-  end_pages = c(175L)
+  end_pages = c(214L)
 )
