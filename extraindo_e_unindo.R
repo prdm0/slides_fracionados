@@ -1,9 +1,10 @@
 staplr::staple_pages(
   input_files =
     c(
-      "/home/prdm0/Downloads/Aula_1.pdf"
+      "~/github/Aula_1.pdf",
+      "~/github/Aula_2.pdf"
     ),
-  output_filepath = "/home/prdm0/slides_fracionados/slides_de.pdf",
-  start_pages = c(NA),
-  end_pages = c(NA)
+  output_filepath = "~/github/slides_fracionados/slides_de.pdf",
+  start_pages = c(NA, NA),
+  end_pages = c(NA, 26)
 )
