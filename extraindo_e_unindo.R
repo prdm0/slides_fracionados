@@ -5,5 +5,5 @@ staplr::staple_pages(
     ),
   output_filepath = "~/github/slides_fracionados/slides_de_c.pdf",
   start_pages = c(NA),
-  end_pages = c(49)
+  end_pages = c(105)
 )
