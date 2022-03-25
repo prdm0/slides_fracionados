@@ -7,7 +7,7 @@ staplr::staple_pages(
     ),
   output_filepath = "~/Dropbox/GitHub/slides_fracionados/slides_de_c.pdf",
   start_pages = c(NA, 1),
-  end_pages = c(NA, 131)
+  end_pages = c(NA, 50)
 )
 
 # Programação em R
