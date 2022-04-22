@@ -7,8 +7,8 @@ staplr::staple_pages(
       "~/Dropbox/UFPB/aulas_ufpb/Programação Estatística I/Aula_3.pdf"
     ),
   output_filepath = "~/Dropbox/GitHub/slides_fracionados/slides_de_c.pdf",
-  start_pages = c(NA, NA, 1),
-  end_pages = c(NA, NA, 36)
+  start_pages = c(NA, NA, NA),
+  end_pages = c(NA, NA, 77)
 )
 
 # Programação em R
