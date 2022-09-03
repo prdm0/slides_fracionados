@@ -20,7 +20,7 @@ staplr::staple_pages(
     ),
   output_filepath = "~/Dropbox/GitHub/slides_fracionados/slides_de_r_de.pdf",
   start_pages = c(NA),
-  end_pages = c(142)
+  end_pages = c(255)
 )
 
 # PPGMMC
@@ -32,5 +32,5 @@ staplr::staple_pages(
     ),
   output_filepath = "~/Dropbox/GitHub/slides_fracionados/slides_de_r_de.pdf",
   start_pages = c(NA),
-  end_pages = c(210)
+  end_pages = c(255)
 )
