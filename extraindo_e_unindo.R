@@ -30,7 +30,7 @@ staplr::staple_pages(
     c(
       "~/Dropbox/UFPB/aulas_ufpb/Programação Estatística II/Aula_1.pdf"
     ),
-  output_filepath = "~/Dropbox/GitHub/slides_fracionados/slides_de_r_de.pdf",
+  output_filepath = "~/Dropbox/GitHub/slides_fracionados/slides_de_r_ppgmmc.pdf",
   start_pages = c(NA),
-  end_pages = c(255)
+  end_pages = c(267)
 )
