@@ -28,9 +28,10 @@ staplr::staple_pages(
 staplr::staple_pages(
   input_files =
     c(
-      "~/Dropbox/UFPB/aulas_ufpb/Programação Estatística II/Aula_1.pdf"
+      "~/Dropbox/UFPB/aulas_ufpb/Programação Estatística II/Aula_1.pdf",
+      "~/Dropbox/UFPB/aulas_ufpb/Programação Estatística II/Aula_2.pdf"
     ),
   output_filepath = "~/Dropbox/GitHub/slides_fracionados/slides_de_r_ppgmmc.pdf",
-  start_pages = c(NA),
-  end_pages = c(289)
+  start_pages = c(NA, NA),
+  end_pages = c(NA, 28)
 )
