@@ -34,5 +34,5 @@ staplr::staple_pages(
     ),
   output_filepath = "~/Dropbox/GitHub/slides_fracionados/slides_de_r_ppgmmc.pdf",
   start_pages = c(NA, NA),
-  end_pages = c(NA, 166)
+  end_pages = c(NA, 172)
 )
