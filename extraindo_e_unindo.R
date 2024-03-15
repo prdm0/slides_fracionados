@@ -22,7 +22,7 @@ staplr::staple_pages(
     ),
   output_filepath = "~/Dropbox/GitHub/slides_fracionados/slides_de_c.pdf",
   start_pages = c(NA, NA, NA),
-  end_pages = c(NA, NA, 29L)
+  end_pages = c(NA, NA, 52L)
 )
 
 # PPGMMC
